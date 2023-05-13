@@ -3,6 +3,6 @@ project(SLAE_4term)
 
 set(CMAKE_CXX_STANDARD 20)
 
-file(GLOB_RECURSE source *.h *.hpp)
+file(GLOB_RECURSE source *.h *.hpp *.cpp)
 
 add_library(SLAE_4term INTERFACE ${source})
